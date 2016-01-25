@@ -13,8 +13,10 @@
 
 # Enabling & Disabling profiling
 
-1. Add this url to bookmark:
+1. Add this urls to bookmarks:
 
-[Enable Profiler](javascript:%28function%28%29+%7Bdocument.cookie%3D%27XHPROF_PROFILE%3D1%3Bexpires%3DMon%2C+05+Jul+2000+00%3A00%3A00+GMT%3Bpath%3D%2F%3B%27%3B%7D%29%28%29)
-[Disable Profiler](javascript:%28function%28%29+%7Bdocument.cookie%3D%27XHPROF_PROFILE%3D0%3Bexpires%3DMon%2C+05+Jul+2000+00%3A00%3A00+GMT%3Bpath%3D%2F%3B%27%3B%7D%29%28%29)
+Enable Profiler:
+`javascript:(function() {document.cookie='XHPROF_PROFILE=1;expires=Mon, 05 Jul 2200 00:00:00 GMT;path=/;';}())`
 
+Disable Profiler:
+`javascript:(function() {document.cookie='XHPROF_PROFILE=0;expires=Mon, 05 Jul 2200 00:00:00 GMT;path=/;';}())`
